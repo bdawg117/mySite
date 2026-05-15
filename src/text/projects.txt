@@ -1,0 +1,25 @@
+──────────────────────────────────────────────────────────────────
+  PROJECTS
+──────────────────────────────────────────────────────────────────
+
+  A.R.I.A. — Autonomous Reactive Intelligent Assistant
+
+  › Fully offline local AI assistant integrated with ROS2 for
+    voice-controlled robot navigation and object detection
+  › On-device LLM pipelines for low-latency NLU, optimized for
+    Raspberry Pi and accelerated with NVIDIA RTX hardware
+  › Integrated Vosk (STT) and Piper (TTS) with ROS2 for a full
+    voice interaction loop with real-time perception
+  › Modular architecture for command processing and SLAM
+
+  ──────────────────────────────────────────────────────────────
+
+  Age Detection Model
+
+  › Binary audio classifier (TensorFlow/Keras) distinguishing
+    adult vs. child speakers for AI assistant access control
+  › Extracted 13-dimensional MFCC features from raw audio via
+    librosa across wav, flac, and mp3 formats
+  › 3-layer dense neural network (128→64→1) with sigmoid output
+    and Adam optimizer
+  › Exported trained model and scaler for reusable inference

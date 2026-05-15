@@ -1,0 +1,96 @@
+
+╔══════════════════════════════════════════════════════════════════╗
+║                        BRIAN MANDEVILLE                          ║
+║                   Backend Software Engineer                      ║
+╚══════════════════════════════════════════════════════════════════╝
+
+  brimandev@gmail.com  |  (904) 735-7328  |  Orangeburg, SC
+
+──────────────────────────────────────────────────────────────────
+  SUMMARY
+──────────────────────────────────────────────────────────────────
+  Backend engineer with production experience in Python,
+  TypeScript, and C++, building distributed systems across AI
+  infrastructure, robotics, and cloud-agnostic backends.
+
+  Florida Polytechnic University graduate. Shipped real systems —
+  from containerized speech recognition pipelines on AWS ECS to
+  multi-robot SLAM fleets using ROS2 and Nav2. Comfortable across
+  the stack from Temporal-orchestrated microservices and Kafka
+  event-driven architecture to on-device LLM inference.
+
+  AWS Certified Developer  |  C++ Certified Associate Programmer
+
+──────────────────────────────────────────────────────────────────
+  SKILLS
+──────────────────────────────────────────────────────────────────
+  Languages:   Python  |  C/C++  |  Java
+  ML/AI:       TensorFlow  |  CUDA  |  Scikit-Learn  |  OpenCV
+  Robotics:    ROS2
+  Databases:   PostgreSQL  |  MySQL
+  Frontend:    React.js  |  TypeScript  |  GraphQL
+  Backend:     REST API  |  Node.js  |  Temporal  |  Kafka
+  DevOps:      Docker  |  AWS  |  GitHub Actions
+  Concepts:    OOP  |  System Architecture  |  CaaS  |  IaaS
+
+──────────────────────────────────────────────────────────────────
+  EXPERIENCE
+──────────────────────────────────────────────────────────────────
+
+  Subtitle Nexus — Backend Software Engineer (Contract)
+  05/2025 – 11/2025
+
+  › Built a cross-platform media player in Python + Lua (MPV)
+    with real-time subtitle translation and minimal playback delay
+  › Deployed containerized speech recognition server on AWS ECS,
+    handling live audio transcription and translation at runtime
+  › Designed real-time subtitle pipeline supporting translation
+    from any detected language, synced via MPV Lua API
+  › Automated Windows/macOS installer workflows via GitHub Actions
+    CI/CD into production-ready distributable builds
+
+  ──────────────────────────────────────────────────────────────
+
+  LedgerWise AI — Backend Software Engineer
+  12/2024 – Present
+
+  › Built Python/TypeScript backend services for a debt collection
+    platform on fully self-hosted, cloud-agnostic infrastructure
+  › Built Temporal workflows for long-running business processes,
+    leveraging retries, versioning, and state persistence
+  › Integrated Hasura GraphQL with PostgreSQL and Prisma ORM,
+    enforcing consistent schema patterns across backend services
+  › Built Kafka async message consumers and producers for reliable
+    cross-service communication in a microservices architecture
+
+  ──────────────────────────────────────────────────────────────
+
+  Florida Polytechnic University — Robotics Research Intern
+  01/2024 – 05/2024
+
+  › Developed ROS2 packages in C++ and Python for autonomous
+    navigation, SLAM, and sensor integration (LiDAR, IMU, encoders)
+  › Implemented multi-robot coordination via Nav2, enabling fleet
+    navigation of large-scale environments without collision
+  › Integrated real-time distributed map merging across robot fleet
+  › Managed fleet deployment and scaling using Kubernetes
+
+
+──────────────────────────────────────────────────────────────────
+  EDUCATION
+──────────────────────────────────────────────────────────────────
+
+  Florida Polytechnic University
+  B.S. Computer Science  |  01/2020 – 05/2024
+
+──────────────────────────────────────────────────────────────────
+  CERTIFICATIONS
+──────────────────────────────────────────────────────────────────
+
+  [CPA-21-02]  CPA – C++ Certified Associate Programmer
+               C++ Institute
+
+  [DVA-C02]    AWS Certified Developer – Associate
+               Amazon Web Services
+
+══════════════════════════════════════════════════════════════════

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+input {
+    /* caret-color: transparent; */
+
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.cursor {
+    display: inline-block;
+    width: 0.6em;
+    height: 1em;
+    background-color: #86efac;
+    animation: blink 1s step-end infinite;
+    vertical-align: text-bottom;
+}
