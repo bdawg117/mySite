@@ -68,15 +68,18 @@ const commandOutputs: Record<string, string[]> = {
 
     alreadyClosed: [
         'Resume is closed, open it with "resume"'
+    ],
+
+    ros2: [
+        'All systems nominal'
     ]
 }
 
-function Terminal({ onOpen, onClose, isOpen }: { onOpen: () => void, onClose: () => void, isOpen: boolean }) {
-
+function Terminal( { panelSelect, activePanel }: {panelSelect: (panel: string | null) => (void), activePanel: boolean })  {
+// { onOpen, onClose, activePanel }: { onOpen: () => void, onClose: () => void, activePanel: boolean }
     const bottomRef = useRef<HTMLDivElement>(null)
     const [input, setInput] = useState('')
     const [history, setHistory] = useState<{ cmd: string, output: string[] }[]>([])
-    const commands = ['ls', 'skills', 'help', 'clear']
     const inputRef = useRef<HTMLInputElement>(null)
 
     useEffect(() => {
@@ -89,17 +92,19 @@ function Terminal({ onOpen, onClose, isOpen }: { onOpen: () => void, onClose: ()
             if (input === 'clear') {
                 setHistory([])
             } else if (input === 'resume') {
-                onOpen()
+                panelSelect(input)
+            } else if (input === 'ros2'){
+                panelSelect(input)
             } else if (input === 'close') {
-                if (isOpen === true) {
-                    onClose()
+                if (activePanel === true) {
+                    panelSelect(null)
                 } else {
                     setHistory(prev => [...prev, { cmd: input, output: runCommand('alreadyClosed') }])
                     setInput('')
                     return
                 }
 
-            }
+            } 
 
 
             setHistory(prev => [...prev, { cmd: input, output: runCommand(input) }])
