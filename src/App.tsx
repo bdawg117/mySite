@@ -34,8 +34,8 @@ function App() {
       )}
 
       { selectPanel === 'ros2' && (
-        <div>
-          <div className='w-2/3 h-[80vh] p-6 rounded-lg ml-4 text-green-800'>ROS2!</div>
+        <div className='w-2/3 h-[80vh] p-6 rounded-lg ml-4 text-green-800'>
+          <div >ROS2!</div>
           <div>CONTROLS HERE</div>
         </div>
 
